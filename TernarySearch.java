@@ -17,13 +17,13 @@ public class TernarySearch {
      */
     static int search(int list[], int left, int right, int search) {
         while (right >= left) {
-
             int middle1 = left + (right - left) / 3;
             int middle2 = right - (right - left) / 3;
 
             if (list[middle1] == search) {
                 return middle1;
             }
+            
             if (list[middle2] == search) {
                 return middle2;
             }
@@ -37,7 +37,6 @@ public class TernarySearch {
                 right = middle2 - 1;
             }
         }
-
         return -1;
     }
 
