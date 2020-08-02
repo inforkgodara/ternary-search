@@ -2,7 +2,7 @@ import java.util.*;
 
 /**
  * This is an implementation of the ternary search algorithm.
- * @author Ramesh Kumar
+ * @author @inforkgodara
  *
  */
 public class TernarySearch {
